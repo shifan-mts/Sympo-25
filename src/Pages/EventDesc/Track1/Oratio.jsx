@@ -131,7 +131,8 @@ const Oratio = () => {
             "Only one team member should submit the abstract",
             "The topic must fall within the specified domain",
             "ID card is mandatory for all participants",
-            "Proper dress code must be followed"
+            "Proper dress code must be followed",
+            "A team can have a maximum of two members",
           ].map((rule, index) => (
             <li key={index} className="flex items-start gap-3">
               <span className="text-accent font-bold">✦</span>
